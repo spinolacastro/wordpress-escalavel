@@ -119,6 +119,18 @@ define('WPLANG', '');
 define('WP_DEBUG', false);
 
 /**
+ * Enable the WordPress Object Cache
+ */
+
+define("WP_CACHE", true);
+
+/**
+ * Disable the built-in cron job
+ */
+define("DISABLE_WP_CRON", true);
+
+
+/**
  * We prefer to be secure by default
  */
 define('FORCE_SSL_ADMIN', true);
