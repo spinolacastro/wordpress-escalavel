@@ -7,7 +7,9 @@ Cache das paginas e os uploads serão feitos no AWS S3.
 Para o correto funcionamento do Wordpress os plugins a seguir já estão instalados e devem ser ativados:
 
 Batcache - http://wordpress.org/plugins/batcache/
+
 Memcachier - http://wordpress.org/plugins/memcachier/
+
 Amazon S3 and Cloudfront - http://wordpress.org/plugins/amazon-s3-and-cloudfront/
 
 
