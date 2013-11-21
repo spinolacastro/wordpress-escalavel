@@ -20,7 +20,22 @@ Crie sua conta em http://getupcloud.com/ e instale o RHC (https://getup.zendesk.
 
 Crie uma aplicação php-5.3 (você pode escolher o nome que bem entender)
 
-    rhc app create wordpress php-5.3 mysql-5.1 http://reflector-getupcloud.getup.io/reflect?github=getupcloud/openshift-origin-cartridge-memcached --from-code=https://github.com/getupcloud/wordpress-escalavel.git -s
+    rhc app-create wordpress php-5.3 mysql-5.1 http://reflector-getupcloud.getup.io/reflect?github=getupcloud/openshift-origin-cartridge-memcached --from-code=https://github.com/getupcloud/wordpress-escalavel.git -s
+
+
+Onde:
+
+__rhc app-create wordpress__: invoca a criação de uma aplicação chamada wordpress
+
+__php-5.3 mysql-5.1__: a aplicação será baseada em php-5.3 mais banco mysql-5.1
+
+__http://reflector-getupcloud.getup.io/reflect?github=getupcloud/openshift-origin-cartridge-memcached__: adiciona um gear de memcached
+
+__--from-code=https://github.com/getupcloud/wordpress-escalavel.git__: baixa o quickstart do wordpress
+
+__-s__: a aplicação deve ser escalável
+
+
 
 Agora acesse a url da sua aplicação:
 
