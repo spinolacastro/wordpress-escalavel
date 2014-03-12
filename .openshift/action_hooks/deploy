@@ -86,6 +86,6 @@ fi
 
 #Enable memcached plugins
 
-if [ ! -d ${OPENSHIFT_REPO_DIR}php/wp-content ]; then
+if [ -d ${OPENSHIFT_REPO_DIR}php/wp-content ]; then
 	cp -a ${OPENSHIFT_REPO_DIR}misc/* ${OPENSHIFT_REPO_DIR}php/wp-content/
 fi
